@@ -26,18 +26,18 @@ import threading
 from zhipuai import ZhipuAI
 #from zhipi import ChatBot
 
-PICOVOICE_API_KEY = "wY0VT8DVVUP4K21nZQRsDRGBBbhAy+66zu6SxOxw5WMbpKWT0Vwcxw=="  # 你的picovoice key
-keyword_path = './Hey--Venus_en_windows_v2_1_0.ppn'  # 你的唤醒词检测离线文件地址
-os.environ["WOLFRAM_ALPHA_APPI"] = "P578EU-3YH6JXT7UE"
-os.environ["SERPER_API_KEY"] = "5481e88e323b8e28aa150f79f89916447ca5ca0f"
-openai_api_key = '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'
+PICOVOICE_API_KEY = "wY0VT8DVVUP4K21nZQRsDRGBBbhAy+66zu6SxOMbpKWT0Vwcxw=="  # 你的picovoice key
+keyword_path = './Hey--Venus_en_windows2_1_0.ppn'  # 你的唤醒词检测离线文件地址
+os.environ["WOLFRAM_ALPHA_APPI"] = "P578E3YH6JXT7UE"
+os.environ["SERPER_API_KEY"] = "5481e88e32328aa150f79f89916447ca5ca0f"
+openai_api_key = 'sk'
 MYPREFIX = PREFIX + "\n\n Remember Your name is Venus!,When you give the Final Answer,you MUST speak in Chinese"
 
-PICOVOICE_API_KEY = "wY0VT8DVVUP4K21nZQRsDRGBBbhAy+66zu6SxOxw5WMbpKWT0Vwcxw=="  # 你的picovoice key
+PICOVOICE_API_KEY = "wY0VT8DVVUP4K21nZQRsDRGBBby+66zu6SxOxw5WMbpKWT0Vwcxw=="  # 你的picovoice key
 #keyword_path = './speechmodules/Hey--Venus_en_windows_v2_1_0.ppn'  # 你的唤醒词检测离线文件地址
-openai_api_key = "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"
+openai_api_key = "sk-oCCOJwI9b0aViX32MqRfT3BlbnRzT4ug4gDLkS5OSq0pT"
 
-api_key = "eb96b3d8daba32c54cbffe8e350096ba.Ot4TZHhR33zfdBMR"  # 请填写您自己的APIKey
+api_key = "eb96b3d8daba32c54cbffe8e3500.Ot4TZHhR33zfdBMR"  # 请填写您自己的APIKey
 
 class PicoWakeWord:
     def __init__(self, PICOVOICE_API_KEY, keyword_path):
